@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="row login-holder">
+            <h1>Welcome to tic-tac-toe</h1>
+            <ul class="pages">
+                <li class="login page">
+                    <div class="form">
+                        <h3>Two players can play this game by clicking on a square.</h3>
+                        <h2 class="title">Start game</h2>
+                        <h4>Enter your name</h4>
+                        <input class="usernameInput" type="text" maxlength="14"/>
+                    </div>
+                </li>
+            </ul>
+    </div>
+
+    <div class="board-holder">
+        <div id="board">
+            <button id="00" class="boardArea" disabled="disabled"></button>
+            <button id="01" class="boardArea" disabled="disabled"></button>
+            <button id="02" class="boardArea" disabled="disabled"></button>
+            <button id="10" class="boardArea" disabled="disabled"></button>
+            <button id="11" class="boardArea" disabled="disabled"></button>
+            <button id="12" class="boardArea" disabled="disabled"></button>
+            <button id="20" class="boardArea" disabled="disabled"></button>
+            <button id="21" class="boardArea" disabled="disabled"></button>
+            <button id="22" class="boardArea" disabled="disabled"></button>
+        </div>
+
+        <div class="playboard">
+            <div class="players">
+                <div class="status">Waiting...</div>
+                <div class="status">Waiting...</div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close">&times;</a>
+                <h2>Game Over</h2>
+                <span class="winmessage">Well done, You've won the game!</span>
+                <a href="/" class="play-again">Play another round&nbsp; &#8250;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

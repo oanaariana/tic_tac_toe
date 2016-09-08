@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#board {
+    margin: auto;
+    width: 350px;
+}
+#board button {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+#board button[disabled=disabled]{
+    background-color: #53a3e0;
+}
+
+.board-holder{
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.login-holder h1 {
+    padding-left: 35px;
+}
+
+.login-holder .form {
+    height: 100px;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.login-holder .form .usernameInput {
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.login-holder .title {
+    font-size: 200%;
+    color: #53a3e0;
+}
+
+.login-holder .usernameInput {
+    font-size: 200%;
+    letter-spacing: 2px;
+}
+.modal-body {
+    padding: 40px 20px 50px;
+    text-align: center;
+}
+.winmessage {
+    font-size: 16px;
+    opacity: 0.85;
+    display: block;
+}
+
+.play-again {
+    color: #ffffff;
+    text-decoration: none;
+    background: #53a3e0;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.close {
+    line-height: 0;
+}
+
+@media screen and (min-width: 768px) {
+    #basicModal .modal-dialog  {
+        width:400px;
+    }
+
+}
+.X {
+    color: orange;
+}
+.O {
+    color: yellow;
+}
+
