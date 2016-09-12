@@ -14,9 +14,9 @@
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/socket.io-client/socket.io.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
@@ -31,10 +31,10 @@
                 <li class="login page">
                     <div class="form">
                         <h3>Two players can play this game by clicking on a square.</h3>
-                        <h4>New to tic-tac-toe and looking for some help getting started? <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">Here</a> is how you can play the game!</h4>
+                        <h4>New to tic-tac-toe and looking for some help getting started? <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank">Here</a> is how you can play the game!</h4>
                         <h2 class="title">Start game</h2>
                         <h4>Enter your name</h4>
-                        <input class="usernameInput" type="text" maxlength="14"/>
+                        <input class="usernameInput" type="text" maxlength="14" autofocus/>
                     </div>
                 </li>
             </ul>

@@ -20,8 +20,9 @@ $(document).ready(function () {
         });
 
         socket.on('playerLeft', function () {
+            console.log('playerLEft');
             $('.winmessage').html('The other player left the room.');
-            $('#basicModal').modal('');
+            $('#basicModal').modal('show');
         });
 
         socket.on('sign', function (sign) {
@@ -32,9 +33,10 @@ $(document).ready(function () {
             console.log('players', players);
             var playersHtml = '';
             for (var pl of players) {
-                playersHtml += '<div class="status">' + pl.name + ' ' + pl.mark + '</div>'
+                playersHtml += '<div class="status">' + pl.name + ':' +' '+' '+ pl.mark + '</div>'
             }
             $('.players').html(playersHtml);
+            $('.status').addClass('user');
         });
 
         socket.on('Start Game', function () {
@@ -49,11 +51,11 @@ $(document).ready(function () {
         socket.on('winner', function (resolve) {
             console.log('winner', resolve, player);
             if (resolve == player.mark){
-                $('.winmessage').html(endings.win);
+                $('.winmessage').html(endings.win).addClass('win');
             } else if (resolve == 'draw') {
-                $('.winmessage').html(endings.draw);
+                $('.winmessage').html(endings.draw).addClass('draw');
             } else {
-                $('.winmessage').html(endings.lose);
+                $('.winmessage').html(endings.lose).addClass('lose');
             }
             setTimeout(function(){
                 $('#basicModal').modal('show');

@@ -90,9 +90,23 @@ li {
 
 }
 .X {
-    color: orange;
+    color: #ff6633;
 }
 .O {
-    color: yellow;
+    color: #ffff33;
 }
 
+.win {
+    color: #00cc33;
+}
+
+.lose {
+    color: #660099;
+}
+
+.draw {
+    color: #000066;
+}
+ .user {
+     color: #0033cc;
+ }
