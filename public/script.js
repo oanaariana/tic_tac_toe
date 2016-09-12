@@ -39,7 +39,7 @@ $(document).ready(function () {
             }
             var playersHtml = '';
             for (var pl of players) {
-                playersHtml += '<div class="status">' + pl.name + ':' +' '+' '+ pl.mark + '</div>'
+                playersHtml += '<div class="status">' + pl.name + ':' +' '+' <span>'+ pl.mark + '</span></div>'
             }
             $('.players').html(playersHtml);
             $('.status').addClass('user');

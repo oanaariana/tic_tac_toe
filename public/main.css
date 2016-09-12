@@ -110,3 +110,11 @@ li {
  .user {
      color: #0033cc;
  }
+
+ .status:first-child{
+     color: red;
+ }
+
+ .status span{
+     color: #000000;
+ }
