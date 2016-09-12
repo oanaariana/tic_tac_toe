@@ -31,6 +31,12 @@ $(document).ready(function () {
 
         socket.on('players', function (players) {
             console.log('players', players);
+            if (players.length === 1){
+                players.push({
+                    name: 'Waiting for other player',
+                    mark: ''
+                });
+            }
             var playersHtml = '';
             for (var pl of players) {
                 playersHtml += '<div class="status">' + pl.name + ':' +' '+' '+ pl.mark + '</div>'
