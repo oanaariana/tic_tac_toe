@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -56,21 +56,21 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="55">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
+            <state relative-caret-position="359">
+              <caret line="33" column="152" selection-start-line="33" selection-start-column="152" selection-end-line="33" selection-end-column="152" />
               <folding>
-                <element signature="e#3319#3326#0" expanded="true" />
-                <element signature="e#3511#3517#0" expanded="true" />
+                <element signature="e#3505#3512#0" expanded="true" />
+                <element signature="e#3697#3703#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,10 +99,10 @@
         <option value="$PROJECT_DIR$/helpers/uuid.js" />
         <option value="$PROJECT_DIR$/server2.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/main.css" />
         <option value="$PROJECT_DIR$/public/script.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/main.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -160,6 +160,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -167,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TicTacToe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tictactoeapp" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -294,8 +308,8 @@
         <state relative-caret-position="1190">
           <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
           <folding>
-            <element signature="e#3319#3326#0" expanded="true" />
-            <element signature="e#3511#3517#0" expanded="true" />
+            <element signature="e#3505#3512#0" expanded="true" />
+            <element signature="e#3697#3703#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -329,8 +343,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3319#3326#0" expanded="true" />
-            <element signature="e#3511#3517#0" expanded="true" />
+            <element signature="e#3505#3512#0" expanded="true" />
+            <element signature="e#3697#3703#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -371,8 +385,8 @@
         <state relative-caret-position="612">
           <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding>
-            <element signature="e#3319#3326#0" expanded="true" />
-            <element signature="e#3511#3517#0" expanded="true" />
+            <element signature="e#3505#3512#0" expanded="true" />
+            <element signature="e#3697#3703#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -449,25 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
-          <folding>
-            <element signature="e#3319#3326#0" expanded="true" />
-            <element signature="e#3511#3517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="68" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -481,6 +476,25 @@
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="33" column="152" selection-start-line="33" selection-start-column="152" selection-end-line="33" selection-end-column="152" />
+          <folding>
+            <element signature="e#3505#3512#0" expanded="true" />
+            <element signature="e#3697#3703#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
