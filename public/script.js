@@ -20,7 +20,6 @@ $(document).ready(function () {
         });
 
         socket.on('playerLeft', function () {
-            console.log('playerLEft');
             $('.winmessage').html('The other player left the room.');
             $('#basicModal').modal('show');
         });
@@ -37,13 +36,14 @@ $(document).ready(function () {
                     mark: ''
                 });
             }
+
             var playersHtml = '';
             for (var pl of players) {
                 playersHtml += '<div class="status">' + pl.name + ':' +' '+' <span>'+ pl.mark + '</span></div>'
             }
             $('.players').html(playersHtml);
-            $('.status').addClass('user');
         });
+
 
         socket.on('Start Game', function () {
             $('#board button').removeAttr('disabled');

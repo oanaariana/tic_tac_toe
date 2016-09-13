@@ -71,8 +71,6 @@ io.on('connection', function (socket) {
         io.to(socket.room).emit('players', players[socket.room]);
     });
 
-
-
     console.log(JSON.stringify(rooms, null, 2));
 
     socket.on('makeMove', function (position) {

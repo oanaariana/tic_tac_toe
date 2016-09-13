@@ -19,7 +19,7 @@ body {
 }
 
 #board button[disabled=disabled]{
-    background-color: #53a3e0;
+
 }
 
 .board-holder{
@@ -93,7 +93,7 @@ li {
     color: #ff6633;
 }
 .O {
-    color: #ffff33;
+    color: #53a3e0;
 }
 
 .win {
@@ -107,14 +107,13 @@ li {
 .draw {
     color: #000066;
 }
- .user {
-     color: #0033cc;
- }
-
- .status:first-child{
-     color: red;
- }
-
- .status span{
+.status {
+    color: #53a3e0;
+}
+.status:first-child{
+    color: #ff6633;
+}
+.status span{
      color: #000000;
+    padding: 10px;
  }
